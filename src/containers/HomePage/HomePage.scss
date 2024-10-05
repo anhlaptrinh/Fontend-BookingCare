@@ -1,0 +1,140 @@
+
+      
+      
+          .slick-prev{
+              
+              z-index: 1000 !important;
+              left: -17px !important;
+              height: 48px !important;
+              width: 44px !important;
+              background: #fff !important;
+              border: 2px solid #d7d7d7 !important;
+              &:hover{
+                  background: #eceaea !important;
+              }
+          
+          }
+          .slick-prev:before,.slick-next:before {
+              color: grey !important;
+              font-size: 25px !important;
+              height: 100% !important;
+              width: 100% !important;
+              
+          }
+          .slick-next{
+              z-index: 1000 !important;
+              right: -10px !important;
+              height: 48px !important;
+              width: 44px !important;
+              background: #fff !important;
+              border: 2px solid #d7d7d7 !important;
+              &:hover{
+                  background: #eceaea !important;
+              }
+          }
+      
+     
+          .section-share{
+            &.section-specialty, &.section-handbook{
+                background: #f5f5f5;
+                .section-container{
+                    background: #f5f5f5;
+                }
+            }
+            &.section-medicalfacility, &.section-doctorfamous{
+                background: #ffffff;
+                .section-container{
+                    background: #ffffff;
+                }
+            }
+            
+            
+            .section-body{
+                padding: 0 10px;
+                .section-customize{
+                    padding: 5px;
+                    .customize-border{
+                        border: 1px solid orange !important;
+                        padding: 20px;
+                    }
+                    .se-image{
+                        
+                        background-position: center center;
+                        background-repeat: no-repeat;
+                        background-size: cover;
+                        background-color: #eee;
+                        width: 278px;
+                        height: 150px;
+                        &.section-specialty{
+                            background-image: url('../../assets/specialty/coxuongkhop.jpg');
+                        }
+                        &.section-medicalfacility{
+                            background-image: url('../../assets/facility/hammat.jpg');
+                        }
+                        &.section-outstanding-doctor{
+                            background-image: url('../../assets/dotor/loli.jpg');
+                            width: 120px;
+                            height: 120px;
+                            border-radius: 50%;
+                        }
+                        &.section-handbook{
+                            background-image: url('../../assets/handbook/inu.png');
+                        }
+                    }
+                }
+            
+                
+            }
+          }
+
+          .section-share{
+            height: 330px;
+            
+            .section-container{
+              margin: 0 auto;
+               display: flex;
+                width: 76%;
+                color: #333;
+                
+                flex-direction: column;
+                .section-header{
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    margin: 10px 0px;
+                    padding: 0 16px 0 10px;
+                    height: 60px;
+                    .title-section{
+                        font-weight: 600;
+                        font-size: 22px;
+                    }
+                    .btn-section{
+                        border-radius: 8px;
+                        padding: 10px 15px;
+                        border: none;
+                        outline: none;
+                        background: #ebebebcb;
+                        cursor: pointer;
+                        color: #333;
+                        &:hover{
+                            color: white;
+                            background: #f7d800;
+                        }
+                    }
+                    
+                }
+                
+               
+            }
+        }
+        .section-doctorfamous{
+            .outer-bg{
+                display: flex;
+                justify-content: center;
+                margin-bottom: 10px;
+            }
+        }
+        
+         
+        
+        

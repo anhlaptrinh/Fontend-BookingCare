@@ -1,0 +1,30 @@
+.section-medicalfacility{
+    height: 330px;
+    
+    .medicalfacility-container{
+      margin: 0 auto;
+       display: flex;
+        width: 76%;
+        color: #333;
+        background: #ffffff;
+        flex-direction: column;
+       
+        .section-body{
+            padding: 0 10px;
+            .bg-image{
+                background: url('../../../assets/specialty/coxuongkhop.jpg');
+                background-position: center center;
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-color: #eee;
+                width: 278px;
+                height: 150px;
+            }
+            
+        }
+       
+    }
+}
+
+ 
+
